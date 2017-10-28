@@ -1,0 +1,9 @@
+h1, h2, h3 {
+  font-family: Garamond, serif;
+}
+
+#wrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
