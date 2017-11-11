@@ -26,7 +26,9 @@ body {
   /*margin: 0 auto;*/
   text-align: center;
 }
-
+header {
+  padding: .5em;
+}
 header h1 {
   float: right;
 }
@@ -54,6 +56,14 @@ nav li {
 main {
   padding-left: 2em;
   padding-right: 2em;
+}
+
+main h2 {
+  text-align: center;
+}
+
+footer {
+  padding: .5em;
 }
 
 /*FORM*/
