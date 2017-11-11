@@ -2,8 +2,134 @@ h1, h2, h3 {
   font-family: Garamond, serif;
 }
 
+p {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+  background-color: #C1C943;
+}
+
 #wrapper {
   width: 90%;
+  background-color: #ffffff;
   margin-left: auto;
   margin-right: auto;
+}
+
+.logo {
+  /*padding: 20px;*/
+  /*float: left;*/
+}
+
+header h1 {
+  float: right;
+}
+header h3 {
+  /*position: absolute;*/
+}
+
+nav {
+  background-color: #CC6744;
+  /*float: right;*/
+}
+
+nav ul {
+  /*float: right;*/
+}
+
+nav li {
+  color: #ffffff;
+  display: inline;
+  /*float: right;*/
+  /*margin-right: 3em;*/
+  text-decoration: none;
+}
+
+main {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/*FORM*/
+
+form {
+  font-family: Garamond, serif;
+  width: 20em;
+  background-color: #ffebd0;
+  padding: 1em;
+  text-align: center;
+}
+form h3 {
+  font-size: 1.2em;
+  background-color: #7e850a;
+  color: #ffffff;
+  text-align: center;
+  padding: .3em 0;
+  margin-top: 0;
+  border: .01em solid #ffffff;
+}
+label {
+  font-family: "Lucida Sans", sans-serif;
+  font-size: .7em;
+  color: #7e850a;
+  display: block;
+  font-weight: bold;
+}
+fieldset {
+  height: 7.7em;
+  margin: 0 auto;
+  border: .15em dotted #7e850a;
+}
+legend {
+  font-weight: bold;
+  color: #872a0a;
+}
+input {
+  font-family: "Lucida Sans", sans-serif;
+  text-align: center;
+}
+fieldset input {
+  width: 15em;
+}
+#button {
+  font-family: Garamond, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #7e850a;
+  color: #ffffff;
+  margin-top: .8em;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+/*TABLE*/
+
+table {
+  border: 10px double #c1c943;
+  border-spacing: 0;
+}
+caption {
+  padding: 10px;
+}
+th {
+  background-color: #7e850a;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 20px;
+}
+td {
+  text-align: center;
+  background-color: #ffebd0;
+  border: 2px solid #c1c943;
+  width: 150px;
+  height: 75px;
+  padding: 10px;
+}
+td img {
+  display: inline-block;
+  border: 1px dashed #872a0a;
+}
+table .pet {
+  vertical-align: bottom;
 }
