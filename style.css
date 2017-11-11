@@ -4,6 +4,8 @@ h1, h2, h3 {
 
 p {
   font-family: "Lucida Sans", sans-serif;
+  color: #872a0a;
+  /*font-size: 100px;*/
 }
 
 body {
@@ -28,6 +30,7 @@ body {
   background-color: #ffebd0;
   padding-top: 1em;
   padding-bottom: 1em;
+  border: .1em dotted #CC6744;
 }
 .aboutCharlieImages img {
   border: .5em double #c1c943;
@@ -150,6 +153,7 @@ th {
 }
 td {
   text-align: center;
+  color: #872a0a;
   background-color: #ffebd0;
   border: 2px solid #c1c943;
   width: 150px;
