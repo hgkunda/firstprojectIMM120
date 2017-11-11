@@ -25,6 +25,12 @@ body {
 .aboutCharlieImages {
   /*margin: 0 auto;*/
   text-align: center;
+  background-color: #ffebd0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.aboutCharlieImages img {
+  border: .5em double #c1c943;
 }
 header {
   padding: .5em;
@@ -56,6 +62,11 @@ nav li {
 main {
   padding-left: 2em;
   padding-right: 2em;
+  color: #7e850a;
+}
+
+main p {
+  color: #000000;
 }
 
 main h2 {
@@ -65,7 +76,10 @@ main h2 {
 footer {
   padding: .5em;
 }
-
+main a {
+  /*color: #872a0a;*/
+  font-size: 1em;
+}
 /*FORM*/
 
 form {
@@ -74,6 +88,7 @@ form {
   background-color: #ffebd0;
   padding: 1em;
   text-align: center;
+  border: .5em double #c1c943;
 }
 form h3 {
   font-size: 1.2em;
