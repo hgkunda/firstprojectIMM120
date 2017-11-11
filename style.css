@@ -19,10 +19,11 @@ body {
   margin-right: auto;
 }
 
-.logo {
-  /*padding: 20px;*/
-  /*float: left;*/
-}
+/*img.logo {
+  padding: 20px;
+  float: left;
+  border: 60em double #872a0a;
+}*/
 
 .aboutCharlieImages {
   /*margin: 0 auto;*/
@@ -162,7 +163,7 @@ td {
 }
 td img {
   display: inline-block;
-  border: 1px dashed #872a0a;
+  border: 1px dotted #872a0a;
 }
 table .pet {
   vertical-align: bottom;
